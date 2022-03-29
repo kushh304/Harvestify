@@ -7,6 +7,8 @@ from utils.disease import disease_dic
 from utils.fertilizer import fertilizer_dic
 import requests
 import config
+import torch
+from torchvision import transforms
 import pickle
 import io
 from PIL import Image
